@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.item-con {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+}
+.suggestion {
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.arrow-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.arrow-img {
+  width: 20px;
+}

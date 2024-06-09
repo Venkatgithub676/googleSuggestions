@@ -1,0 +1,71 @@
+/* Write your CSS here */
+
+.bg-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  text-align: center;
+  height: 460px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    width: 80%;
+    height: 300px;
+    max-width: 300px;
+  }
+}
+
+.google-pic {
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .google-pic {
+    width: 150px;
+  }
+}
+.search-suggestion-con {
+  box-shadow: 0px 4px 16px 0px;
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+}
+
+.search-con {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  height: 40px;
+}
+
+.search-img {
+  width: 20px;
+  margin-right: 4px;
+}
+
+.search-text {
+  padding: 10px;
+  width: 400px;
+  outline: none;
+  height: 30px;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .search-text {
+    width: 100%;
+  }
+}
+.suggestion-con {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
